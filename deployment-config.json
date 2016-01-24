@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "104.236.195.101",
+    "username": "root",
+    "password": "pizzayoloswag",
+    "port": 22,
+    "remotePath": "/srv/users/serverpilot/apps/portfolio/public",
+    "uploadOnSave": true
+}

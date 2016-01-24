@@ -1,0 +1,643 @@
+/*Layout CSS*/
+/*Bennetthojka.com*/
+
+/*GLOBAL**************************/
+html {
+
+}
+body
+{
+    font-family: 'PrintClearlyRegular';
+}
+
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%9 !important;
+}/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+strong{font-weight: bold;}
+
+/* content centering styles */
+.content-a {
+    display:table;
+}
+.content-b {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+}
+h1, h2, h3, h4, h5, h6 {font-family: 'bebas_neuebold';}
+
+#logo-h1{
+	font-size: 65px;
+	font-family: 'bebas_neuebold';
+	color: #000;
+	display: block;
+	margin: 0;
+	line-height: 0.9;
+}
+#logo-h2{
+	clear: both;
+	margin: 0;
+	font-size: 47px;
+	/* font-size: 65px; */
+	font-family: 'bebas_neuebold';
+	background-color: #022B2F;
+	text-align: right;
+	width: 310px;
+	color: #FFF;
+	padding-right: 5px;
+}
+#logo{
+    width: 375px;
+}
+
+#main-title h1{
+    font-size: 60px;
+    display: inline-block;
+    background-color: #022B2F;
+    padding: 40px;
+    border-radius: 4px;
+    color: #FFF;
+    padding-right: 36px;
+}
+#main-title h2{
+    margin-top: 30px;
+    background-color: #FFF;
+    display: inline-block;
+    padding: 20px 10px;
+    border-radius: 4px;
+    font-size: 32px;
+    color: #022B2F;
+}
+#check-out{
+    color: #90C200;
+}
+#main{
+  background: url('https://drscdn.500px.org/photo/130294413/m%3D2048/360d8c047df3a672086523319e21146b');
+  background-size: cover;
+  border-top: 1px solid #FFF;
+}
+.nav-links{float: right}
+.nav-links li{display: block;}
+.nav-links li a{
+  box-shadow: none;
+  background: #000;
+  border-radius: 4px;
+  border: 2px solid #FFF;
+  font-family: 'bebas_neuebold';
+  float: right;
+  margin-bottom: 6px;
+}
+.nav-links li a.call-to-action{
+  background: #90C200;
+}
+.nav-links li a.call-to-action:hover{
+  background: #000;
+}
+.nav-links li a{
+    -webkit-box-shadow: 4px 10px 0px 0px #022B2F;
+    box-shadow: 4px 4px 0px 0px #022B2F;
+}
+#portfolio{
+  background-color: #012B2F;
+  border-top: 1px solid #FFF; color: #FFF;}
+
+
+.portfolio-boxes{clear: both;}
+.portfolio-boxes-boxes div h3{color: #022B2F;}
+.portfolio-boxes div{
+    margin: 10px 0;
+    background-color: #FFFFFF;
+    width: 180px;
+    color: #444444;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.portfolio-boxes img{opacity:0.8;margin-bottom: 30px; border: 10px solid #0E3C41; margin-top:10px; border-radius: 4px}
+
+.portfolio-boxes img:hover{
+   -webkit-transition: opacity .3s ease-in-out;
+   -moz-transition: opacity .3s ease-in-out;
+   -ms-transition: opacity 3s ease-in-out;
+   -o-transition: opacity .3s ease-in-out;
+   transition: opacity .3s ease-in-out;
+    opacity: 1;
+}
+
+.container{
+    width: 850px;
+    margin: 35px auto;
+}
+.float-left{float: left;}
+.float-right{float: right;}
+.clear-fix{clear: both;}
+.text-align-center{text-align: center;}
+nav{margin-top: 0px;}
+nav i{margin-right: 8px;}
+nav li{display: inline; margin-left: 10px;  font-size: 22px;}
+nav li a, nav li a:visited{ color: #FFF; text-decoration: none; padding: 2px 30px; padding-bottom: 2px;}
+nav li a:hover{
+    webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    background-color: #90C200;
+    color: #FFF;
+}
+#self{
+    width: 335px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #E8E8E8;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    -ms-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+}
+#bio-section{
+    color:#FFF;
+    margin-top: 15px;
+    display:inline-block;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 15px;
+    border-radius: 4px;
+}
+.bio-section{width: 400px; float: left;}
+#skills-progress{
+  padding-top: 15px;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 300px;
+  float: right;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+#skills-progress h4{
+  color: #FFF;
+  font-family: 'PrintClearlyRegular';
+  text-align: center;
+  margin: 10px;
+}
+#about-me-p{
+  background-color: rgba(0, 0, 0, 0.57);
+  color: #FFF;
+  padding: 0 10px;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.school-logos img{height: 75px; float: left; margin-right: 15px;}
+.school-logos h4{
+    font-size: 20.5px;
+    margin: 0;
+    margin-bottom: 5px;
+    background-color: #DFDFDF;
+    padding: 2px 6px;
+    border-right: 3px solid #0D4D8C;
+    border-bottom: 3px solid #0D4D8C;
+    background-color: #1284B6;
+      color: #FFF;
+}
+.school-logos h5{margin: 0; margin-left: 5px;}
+.bio-boxes{margin-bottom: 30px; overflow: auto;}
+.skills{width: 400px; margin-bottom: 10px;}
+
+.skills li{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 15px;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+#social{
+    margin: 40px 0 0 100px;
+    text-align: left;
+}
+#social a, #social a:visited{color: #90C200;}
+#social i{margin-right: 8px;}
+#connect .container{margin: 0px auto;}
+
+#photo-video{background-color: #898;}
+
+#photos{float: left}
+
+#skills-progress li{
+  display: inline;
+}
+#skills-progress ul {
+  margin: auto;
+  height: 10px;
+  width: 500px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  list-style: none;
+  padding: 0;
+  margin: 20px 30px;
+}
+
+#skills-progress li {
+  display: block;
+  float: left;
+  width: 44px;
+  height: 6px;
+  margin-right: 5px;
+}
+
+#skills-progress li:nth-child(-n+5) {
+  background: rgba(255,255,255,0.9);
+  box-shadow: inset 0px 0px 10px 2px rgba(117,182,255,0.5),
+                    0px 0px 20px rgba(117,182,214,0.5);
+}
+#skills-progress .four li:nth-child(-n+3) {
+  background: rgba(255,255,255,0.9) !important;
+  box-shadow: inset 0px 0px 10px 2px rgba(117,182,255,0.5) !important,
+                    0px 0px 20px rgba(117,182,214,0.5)!important;
+}
+
+
+#skills-progress li:nth-child(n+5) {
+  box-shadow: inset 0px 0px 10px 1px rgba(117,182,255,0.4),
+                    0px 0px 20px rgba(117,182,255,0.1);
+}
+
+#skills-progress .four li:nth-child(n+2) {
+  box-shadow: inset 0px 0px 10px 1px rgba(117,182,255,0.4),
+                    0px 0px 20px rgba(117,182,255,0.1);
+}
+
+#skills-progress li:nth-child(6) {
+  -webkit-animation: pulse 1s alternate infinite;
+  -moz-animation: pulse 1s alternate infinite;
+}
+
+#skills-progress .four li:nth-child(4) {
+  -webkit-animation: pulse 1s alternate infinite;
+  -moz-animation: pulse 1s alternate infinite;
+}
+#skills-progress .four-no li:nth-child(9) {
+  -webkit-animation: pulse 1s alternate infinite;
+  -moz-animation: pulse 1s alternate infinite;
+}
+#skills-progress .five li:nth-child(5) {
+  -webkit-animation: pulse 1s alternate infinite;
+  -moz-animation: pulse 1s alternate infinite;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    background: rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 10px 2px rgba(117,182,255,0.5),
+                      0px 0px 40px 2px rgba(105,135,255,1);
+  }
+  100% {
+    background: rgba(255,255,255,0);
+    box-shadow: inset 0px 0px 10px 2px rgba(117,182,255,0.5),
+                      0px 0px 30px 2px rgba(105,135,255,0.3);
+  }
+}
+
+@-moz-keyframes pulse {
+  0% {
+    background: rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 10px 2px rgba(117,182,255,0.5),
+                      0px 0px 40px 2px rgba(105,135,255,1);
+  }
+  100% {
+    background: rgba(255,255,255,0);
+    box-shadow: inset 0px 0px 10px 2px rgba(117,182,255,0.5),
+                      0px 0px 30px 2px rgba(105,135,255,0.3);
+  }
+}
+
+@media only screen and (min-width : 439px) and (max-width : 667px) {
+    #check-out {
+      color: #90C200;
+      display: inline-block;
+      margin-right: 4px;
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+    html{overflow-x: hidden;}
+    body{
+        width: 100%;
+        margin: 0 auto;
+        position: absolute
+        top: 0
+        left: 0
+    }
+    #main-title h1{
+        content-size:box-sizing;
+        max-width: 200px;
+        margin: 0 10%;
+    }
+    .container{
+       width: 100%;
+       margin: 30px 0;
+    }
+    .logo-container{
+        float: none;
+    }
+    #logo{
+       width: 250px;
+       margin: 0 auto;
+       display: block;
+    }
+    .nav-container{
+        float: none;
+    }
+    .nav-links{  width: 250px;margin: 0 auto;display: block; float: none;}
+    .nav-links li a {float: none; padding: 4px 30px;}
+    .nav-links li{
+
+        display: block;
+        font-size: 18px;
+        margin: 0;
+        margin-top: 15px;
+    }
+    .bottom-spacing{
+        margin-bottom: 30px;
+    }
+    #bio-section, #skills-progress{ display: block; width: 250px;margin:0 auto; float: none;padding: 15px;
+    margin-top: 20px;}
+    .nait{width: 179px}
+    .school-logos h4{font-size: 11px; font-size: 11.6px; display: inline-block;}
+    .school-logos h5{font-size: 14px;}
+    .skills li{
+        font-size: 18px;
+        display: table;
+    }
+    #skills-progress ul {margin: 0}
+    #self{
+        width: 250px;
+        margin: 0 auto;
+        display: block;
+        padding: 15px;
+        background-color: #E8E8E8;
+        padding-bottom: 40px;
+        margin-top: 0px;
+    }
+    #about-me-p{
+        width: 260px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: block;
+        font-size: 18px;
+        clear: both;
+    }
+    .portfolio-boxes div {
+        background-color: #FFFFFF;
+        width: 240px;
+        color: #444444;
+        padding: 20px;
+        border-radius: 4px;
+        font-size: 20px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .self-container{float: none;}
+    .portfolio-boxes div p{margin: 0;}
+    .portfolio-boxes-container{width: 270px;margin: 0 auto;display: block;}
+    .portfolio-boxes-container h2{  margin-top: 30px;}
+    .portfolio-boxes img{
+        width: 240px;
+        border: 0px solid #022B2F;
+        box-sizing: border-box;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .portfolio-boxes{
+        overflow: auto;
+        background-color: #05191B;
+        padding: 15px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        overflow: auto;
+    }
+    .portfolio-boxes-container .float-right{float: none;}
+    #contact{
+        width: 250px;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+        float: none;
+        padding: 20px 0;
+    }
+    #contact .container form input, #contact .container form select, #contact .container form textarea{
+        float: none;
+        display: block;
+        margin: 10px 30px;
+        width: 165px;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    #contact .container form textarea{padding-top: 15px;}
+    #contact .container form .submit{width: 160px;display: block;margin: 0 auto;float: none;}
+    #social{
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+        margin-top: 30px;
+    }
+    #contact{display: none;}
+    #connect .container{margin:30px 0;}
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../images/city.png");
+}
+section.module.parallax-2 {
+  background-image: url("../img/demo/_small/2.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/3.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+
+
+
+/*Fonts************************/
+::selection { background:#CDDECC;}
+::-moz-selection { background:#49B82E;}
+::-webkit-selection { background:#49B82E;}
+
+
+/*Heading Fonts*/
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('fonts/bebasneue_bold-webfont.eot');
+    src: url('fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_bold-webfont.woff') format('woff'),
+         url('fonts/bebasneue_bold-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_bold-webfont.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('fonts/bebasneue_book-webfont.eot');
+    src: url('fonts/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_book-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_book-webfont.woff') format('woff'),
+         url('fonts/bebasneue_book-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('fonts/bebasneue_regular-webfont.eot');
+    src: url('fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('fonts/bebasneue_light-webfont.eot');
+    src: url('fonts/bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_light-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_light-webfont.woff') format('woff'),
+         url('fonts/bebasneue_light-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_light-webfont.svg#bebas_neuelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bebas_neuethin';
+    src: url('fonts/bebasneue_thin-webfont.eot');
+    src: url('fonts/bebasneue_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_thin-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_thin-webfont.woff') format('woff'),
+         url('fonts/bebasneue_thin-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_thin-webfont.svg#bebas_neuethin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lovelo-Black';
+    src: url('fonts/lovelo-black.eot');
+}
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('fonts/Chunkfive-webfont.eot');
+    src: url('fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Chunkfive-webfont.woff') format('woff'),
+         url('fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*Text Font*/
+@font-face {
+    font-family: 'PrintClearlyRegular';
+    src: url('fonts/PrintClearly-webfont.eot');
+    src: url('fonts/PrintClearly-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PrintClearly-webfont.woff') format('woff'),
+         url('fonts/PrintClearly-webfont.ttf') format('truetype'),
+         url('fonts/PrintClearly-webfont.svg#PrintClearlyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,66 @@
+ /*style.css*/
+
+body{
+	width: 800px;
+	margin: 0 auto;
+}
+h1{text-align: center;margin-bottom: 20px;}
+.about{
+	text-align: center;
+	font-size: 16px;
+}
+.open-close-link{
+	display: none;
+}
+
+.radio-logo{
+	width: 250px;
+  margin: 10px auto;
+  display: block;
+}
+.daily-collections{
+	width: 400px;
+}
+
+.top-songs ul, .song-list ul{list-style-type: none;}
+.top-songs{
+	width: 300px;
+	float: right;
+}
+.song-list{
+	width: 450px;
+	float: left;
+}
+h3{
+	display: inline-block;
+}
+strong{
+	font-weight: bold;
+}
+.station-logo:hover{
+	background-color: transparent;
+
+}
+.station-logo{
+	height: 150px;
+    background-color: #F4F4F4;
+    padding: 15px;
+    border-radius: 4px;
+}
+#sorting{
+	width: 300px;
+}
+#sorting h3{display: inline-block;}
+#sorting a{margin-right: 15px}
+
+nav a{
+	display: inline-block;
+    background-color: #444;
+    color: #FFF;
+    border-radius: 4px;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: monospace;
+}
+.fc-time{display: none;}
